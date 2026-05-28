@@ -6,7 +6,7 @@ and applies the GReaT generative model to synthesize new data samples.
 Other baseline models can be added similarly.
 
 Usage:
-CUDA_VISIBLE_DEVICES=0 python flattened_baselines.py --MIMIC_DATA_PATH <path_to_mimic_data> \
+CUDA_VISIBLE_DEVICES=0 python generate_synthetic_mimic3_gpt2.py --MIMIC_DATA_PATH <path_to_mimic_data> \
     --train_patients_path <path_to_train_ids> \
     --test_patients_path <path_to_test_ids> \
     --save_synthetic_path <path_to_save_synthetic_data> \
